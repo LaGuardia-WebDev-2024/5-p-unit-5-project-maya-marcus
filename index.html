@@ -21,12 +21,91 @@ Select TWO Additional Features to Add
   <title>Unit 5 Project</title>
   <meta charset="utf-8">
   <style>
+.come{
+  font-size:30px;
+}
+.thanksgiving {
+  font-size:40px;
+  color:rgb(248, 179, 89);
+  animation: customAni 5s ease 0s infinite normal none;
+
+}
+.pie {
+  font-size:40px;
+}
+.come{
+  color:rgb(231, 33, 26)
+}
+.pie{
+text-decoration:underline;
+color:rgb(240, 160, 12);
+font-style:italic;
+}
+
+#info{
+  background-color:bisque
+}
+
+.thanksgiving{
+  background:rgb(236, 87, 17)
+}
+.thanksgiving{
+  overflow-y:auto;
+}
+body{
+  font-family:cursive;
+  margin:auto;
+  text-align:center;
+}
+.photo-gallery{
+  background: rgb(241, 70, 18)
+}
+.pic{
+  width:400px;
+  margin:auto;
+  border:10px solid orange;
+  padding:7px;
+  border-left-style:dotted;
+  border-right-style:dotted;
+  border-top-style:dotted;
+  border-bottom-style:dotted;
+
+}
+.pies{
+  width:600px;
+  margin:auto;
+  border:10px solid orange;
+  padding:5px;
+  display:flex;
+  border-left-style:dotted;
+  border-right-style:dotted;
+  border-top-style:dotted;
+  border-bottom-style:dotted;
+}
+@keyframes customAni{
+  0%,50%,100% {opacity:1;}
+  25%,75% {opacity:0.3;}
+}
 
   </style>
 </head>
 <body>
+<div id="info">
+ <h1 class="thanksgiving">COME TO MY THANKSGIVING PARTY</h1>
+<p>
+<span class="come"> For delicious food, fun games, good music, and great company!</p>
+<div class="pic">
+  <img
+  src="https://www.realsimple.com/thmb/Qxw_d-ma1hiZ_gLl5EqwfWUN8I8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-836012728-2000-4d08f7642be14b7c8f723a70cd03a40d.jpg"width=400> 
+  <img src="https://www.almanac.com/sites/default/files/images/shutterstock_1186136779.jpg"width=400>
+ </div>
+  <p class="pie">
+    There will also be a pie making contest! Whoever makes the most yummy and creative pie wins
 
- 
-
+  </p>
+  <div class="pies">
+  <img src="https://sallysbakingaddiction.com/wp-content/uploads/2022/11/4-unique-beautiful-pie-crust-designs.jpg"width=300>
+  <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2022/10/PumpkinPie2-2.jpg"width=300>
+</div>
 </body>
 </html>
